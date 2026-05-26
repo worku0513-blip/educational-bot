@@ -1,0 +1,37 @@
+{
+  "name": "educational-bot",
+  "version": "1.0.0",
+  "description": "A Telegram-based educational quiz bot for private members.",
+  "main": "dist/bot.js",
+  "scripts": {
+    "start": "node dist/bot.js",
+    "build": "tsc",
+    "dev": "ts-node src/bot.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "telegraf": "^4.14.0",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.3.1",
+    "@types/express": "^4.17.17",
+    "ts-jest": "^29.1.0",
+    "jest": "^29.5.0",
+    "@types/jest": "^29.5.2"
+  },
+  "keywords": [
+    "bot",
+    "educational",
+    "quiz",
+    "assessment",
+    "telegram"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
